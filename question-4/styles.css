@@ -19,3 +19,6 @@ body{
     background-color: #4f5b6c;
     border: 1px solid black
 }
+.box:nth-child(5){
+    background-color: #8694dc;
+}

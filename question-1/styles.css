@@ -1,23 +1,35 @@
 body{
     margin: 0;
     padding: 0;
-    box-sizing: border-box
+    box-sizing: border-box;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .outer{
     width: 100vw;
     height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
     background-color: black;
+    
 }
 
 .middle{
-    width: 90%;
-    height: 90%;
-    background-color: blue;
+    width: 40%;
+    height: 40%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #5a6882;
+    /* padding: .7rem; */
 }
 
 .inner{
-    width: 90%;
-    height: 90%;
-    background-color: white;
+    width: 75%;
+    height: 70%;
+    background-color: #53394f;
+    border: 30px solid #292542;
 }
